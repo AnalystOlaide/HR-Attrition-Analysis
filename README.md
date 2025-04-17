@@ -31,11 +31,9 @@ The data used in this project comes from ChatGPT.
 - **Data Visualization**: Created interactive reports to display insights effectively.
 
 ## Key Insights
-![image](https://github.com/user-attachments/assets/6f5b1059-0835-413a-9256-32a6ab168eb1)
-![image](https://github.com/user-attachments/assets/5b6a3f9a-784b-4095-911c-8461cacf8a79)
-![image](https://github.com/user-attachments/assets/e1aadd61-ff5e-4571-bf67-e850d61d9662)
-
-
+![image](https://github.com/user-attachments/assets/e3ba721f-0c08-4457-aeee-b8c80e4543bb)
+![image](https://github.com/user-attachments/assets/c9edfc24-35c7-44d9-8a52-c54522677f0b)
+![image](https://github.com/user-attachments/assets/845d0d49-76b0-48e2-9f04-ec232e96eddc)
 
 ### 1. Monthly Income vs. Attrition
 - Employees earning $1k - $5k have the highest attrition rate (21.76%).

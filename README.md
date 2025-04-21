@@ -4,9 +4,9 @@
 This Power BI dashboard provides insights into employee attrition trends, key influencing factors, and potential strategies for retention. The analysis focuses on various employee attributes such as age, department, job role, years at the company, and more.
 
 ## Problem Statement
-Employee attrition can significantly impact an organization’s productivity and costs. Understanding the key factors driving employee turnover is essential for improving retention strategies and workforce stability.
-🧩 Problem Statement
-Employee attrition poses significant challenges to organizational productivity and financial stability. To develop effective retention strategies, it's crucial to understand the underlying factors contributing to employee turnover. This analysis seeks to address the following critical questions:
+Employee attrition poses significant challenges to organizational productivity and financial stability. To develop effective retention strategies, it's crucial to understand the underlying factors contributing to employee turnover. 
+
+This analysis seeks to address the following critical questions:
 
 Which job roles and departments exhibit the highest attrition rates?
 

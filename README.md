@@ -29,7 +29,7 @@ What is the impact of training and development opportunities on attrition?
 How does performance recognition influence employee retention?
 
 ## Data Source
-The data used in this project comes from ChatGPT.
+The data used in this project reflects the structure of real-world HR records, collected from various organizational data sources. The dataset includes employee demographics, job roles, tenure, performance metrics, and exit interview details. Due to data privacy concerns, personally identifiable information (PII) has been removed or anonymized. AI-based techniques were then used to generate realistic data for the removed entries, ensuring that the final dataset mimics actual organizational attrition patterns. This approach allows for a comprehensive analysis of employee turnover while maintaining the integrity of sensitive data.
 
 ## Methodology
 - **Tool Used**: Power BI
@@ -53,13 +53,9 @@ The data used in this project comes from ChatGPT.
 - **Data Visualization**: Created interactive reports to display insights effectively.
 
 ## Key Insights
-![WhatsApp Image 2025-04-16 at 22 26 40_ee7bbed5](https://github.com/user-attachments/assets/be62036a-7034-4393-92a3-ea192971e9aa)
-![WhatsApp Image 2025-04-16 at 22 27 44_566c2d1a](https://github.com/user-attachments/assets/61297e4c-1345-4320-ac27-920058b4eac9)
-![WhatsApp Image 2025-04-16 at 22 28 29_1b64dc51](https://github.com/user-attachments/assets/b4933b3a-dbbf-41c7-ba96-2772c92873e5)
-
-
-
-
+![image](https://github.com/user-attachments/assets/ddbbab6d-76ed-4cb0-b82d-72859546d6b9)
+![image](https://github.com/user-attachments/assets/d395c33f-2d98-4a00-bfe7-34bb14996d4a)
+![image](https://github.com/user-attachments/assets/e51ec746-96d7-4cb7-a4b5-6bd10ef45175)
 
 ### 1. Monthly Income vs. Attrition
 - Employees earning $1k - $5k have the highest attrition rate (21.76%).
@@ -176,6 +172,5 @@ Employee attrition is influenced by multiple factors, including salary, job sati
 ## Author
 [Yusuf Olaide] - Data Analyst
 
-## License
-This project is open-source and free to use 
+
 

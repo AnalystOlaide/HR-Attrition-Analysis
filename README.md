@@ -53,9 +53,12 @@ The data used in this project reflects the structure of real-world HR records, c
 - **Data Visualization**: Created interactive reports to display insights effectively.
 
 ## Key Insights
-![image](https://github.com/user-attachments/assets/ddbbab6d-76ed-4cb0-b82d-72859546d6b9)
-![image](https://github.com/user-attachments/assets/d395c33f-2d98-4a00-bfe7-34bb14996d4a)
-![image](https://github.com/user-attachments/assets/e51ec746-96d7-4cb7-a4b5-6bd10ef45175)
+![image](https://github.com/user-attachments/assets/4e28a7b2-8937-4b43-984c-39091eb65093)
+![image](https://github.com/user-attachments/assets/1b7b4246-3006-4074-9af3-3e0988996a6f)
+![image](https://github.com/user-attachments/assets/7941dafb-8302-45c0-a556-5cb2045b11e5)
+
+
+
 
 ### 1. Monthly Income vs. Attrition
 - Employees earning $1k - $5k have the highest attrition rate (21.76%).

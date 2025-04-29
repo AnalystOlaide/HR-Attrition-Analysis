@@ -28,14 +28,31 @@ What is the impact of training and development opportunities on attrition?
 
 How does performance recognition influence employee retention?
 
-## Data Source
-The data used in this project reflects the structure of real-world HR records, collected from various organizational data sources. The dataset includes employee demographics, job roles, tenure, performance metrics, and exit interview details. Due to data privacy concerns, personally identifiable information (PII) has been removed or anonymized. AI-based techniques were then used to generate realistic data for the removed entries, ensuring that the final dataset mimics actual organizational attrition patterns. This approach allows for a comprehensive analysis of employee turnover while maintaining the integrity of sensitive data.
-## Data Structure
+Data Source
+The dataset used in this project mirrors real-world HR records, collected from various organizational sources. It includes employee demographics, job roles, tenure, performance metrics, and exit interview details.
+To ensure data privacy, personally identifiable information (PII) was removed or anonymized. AI-based techniques were applied to regenerate realistic values for removed data points, maintaining authentic attrition patterns for meaningful analysis.
+
+## Data Analysis Process
+**Data Cleaning & Transformation**
+Conducted using Power Query, the process involved: formatting fields (e.g., income ranges), handling missing values, grouping job levels, standardizing ratings (e.g., environment satisfaction, job level), and applying binning and segmentation for clearer analysis.
+
+**Data Visualization**
+Utilized Power BI to create compelling visuals, including bar charts, column charts, matrix tables, donut charts, and funnel charts to communicate key insights.
+
+**Exploratory Data Analysis (EDA)**
+Explored attrition trends in relation to key variables: job role, monthly income, department, job level, environment satisfaction, and marital status.
+Tool Used: Power BI
+
+ **DAX Calculations** 
+Data Analysis Expressions (DAX) was used to create custom measures and KPIs, including:
+- Attrition rate calculations
+- Segmentation by job level and income bracket
+- Tenure-based trends and filters
+Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
+
+  ## Data Structure
+  
 The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
-## Methodology
-- **Tool Used**: Power BI
-- **Analysis Techniques**: Data collection and modification using AI, data cleaning, transformation, binning and segmentation using Power Query, data visualization using bar charts, column charts, matrix, donut charts, funnel charts, and DAX calculations using formulas.
-- **Key Metrics**: Attrition rate, department-wise turnover, job role analysis, tenure-based trends, and other relevant performance indicators.
   
   ## Executive Summary
 

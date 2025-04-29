@@ -67,7 +67,7 @@ Tenure-based trends and filters
 Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators.
 
 
-## Data Visualization: **Created interactive reports to display insights effectively**
+**Created interactive reports to display insights effectively**
 
 ![image](https://github.com/user-attachments/assets/4e28a7b2-8937-4b43-984c-39091eb65093)
 ![image](https://github.com/user-attachments/assets/1b7b4246-3006-4074-9af3-3e0988996a6f)

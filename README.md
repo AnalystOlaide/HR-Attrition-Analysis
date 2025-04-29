@@ -35,6 +35,14 @@ To ensure data privacy, personally identifiable information (PII) was removed or
 ## Data Structure  
 The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
 
+## Tool Used  
+**Power BI**
+
+## Power BI Skills Applied  
+- **Power Query**: For data cleaning and transformation  
+- **DAX**: Used to create calculation measures and perform advanced analytics  
+- **Charts & Visuals**: Built interactive dashboards using bar, column, donut, matrix, and funnel charts
+
 ## Data Analysis Process
 
 **Data Cleaning & Transformation**
@@ -220,12 +228,7 @@ Employee attrition is influenced by multiple factors, including salary, job sati
 1. **Download the Power BI file** from this repository.
 2. **Load the dataset** (or use the provided sample data).
 3. **Explore the interactive dashboard** to gain insights into employee attrition.
-4. **Modify the visuals** as needed to tailor insights for your organization.
 
-## Technologies Used
-- **Power BI** (Data visualization and dashboard creation)
-- **Power Query** (Data cleaning and transformation)
-- **DAX** (Data analysis and calculations)
 
 ## Author
 [Yusuf Olaide] - Data Analyst

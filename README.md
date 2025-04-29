@@ -49,7 +49,8 @@ Data Analysis Expressions (DAX) was used to create custom measures and KPIs, inc
 - Segmentation by job level and income bracket
 - Tenure-based trends and filters
 Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
-Attrition Rate% = 
+
+**Attrition Rate%** = 
   DIVIDE(
       CALCULATE(
           COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber]),

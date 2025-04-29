@@ -28,7 +28,7 @@ What is the impact of training and development opportunities on attrition?
 
 How does performance recognition influence employee retention?
 
-Data Source
+## Data Source
 The dataset used in this project mirrors real-world HR records, collected from various organizational sources. It includes employee demographics, job roles, tenure, performance metrics, and exit interview details.
 To ensure data privacy, personally identifiable information (PII) was removed or anonymized. AI-based techniques were applied to regenerate realistic values for removed data points, maintaining authentic attrition patterns for meaningful analysis.
 

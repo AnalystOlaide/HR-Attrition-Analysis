@@ -30,7 +30,8 @@ How does performance recognition influence employee retention?
 
 ## Data Source
 The data used in this project reflects the structure of real-world HR records, collected from various organizational data sources. The dataset includes employee demographics, job roles, tenure, performance metrics, and exit interview details. Due to data privacy concerns, personally identifiable information (PII) has been removed or anonymized. AI-based techniques were then used to generate realistic data for the removed entries, ensuring that the final dataset mimics actual organizational attrition patterns. This approach allows for a comprehensive analysis of employee turnover while maintaining the integrity of sensitive data.
-
+## Data Structure
+The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
 ## Methodology
 - **Tool Used**: Power BI
 - **Analysis Techniques**: Data collection and modification using AI, data cleaning, transformation, binning and segmentation using Power Query, data visualization using bar charts, column charts, matrix, donut charts, funnel charts, and DAX calculations using formulas.

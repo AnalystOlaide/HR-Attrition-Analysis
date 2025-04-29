@@ -38,6 +38,8 @@ Conducted using Power Query, the process involved: formatting fields (e.g., inco
 
 **Data Visualization**
 Utilized Power BI to create compelling visuals, including bar charts, column charts, matrix tables, donut charts, and funnel charts to communicate key insights.
+Tenure-based trends and filters
+Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
 
 **Exploratory Data Analysis (EDA)**
 Explored attrition trends in relation to key variables: job role, monthly income, department, job level, environment satisfaction, and marital status.
@@ -47,8 +49,6 @@ Tool Used: Power BI
 Data Analysis Expressions (DAX) was used to create custom measures and KPIs, including:
 - Attrition rate calculations
 - Segmentation by job level and income bracket
-- Tenure-based trends and filters
-Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
 
 **Attrition Rate%** = 
   DIVIDE(

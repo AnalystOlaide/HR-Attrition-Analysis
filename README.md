@@ -69,7 +69,7 @@ Key Metrics: attrition rate, department-wise turnover, job role-specific attriti
 
 **Created interactive reports to display insights effectively**
 
-![image](https://github.com/user-attachments/assets/4e28a7b2-8937-4b43-984c-39091eb65093)
+![image](https://github.com/user-attachments/assets/71c3c752-332f-45b1-a033-8985aa3bde9e)
 ![image](https://github.com/user-attachments/assets/1b7b4246-3006-4074-9af3-3e0988996a6f)
 ![image](https://github.com/user-attachments/assets/7941dafb-8302-45c0-a556-5cb2045b11e5)
 

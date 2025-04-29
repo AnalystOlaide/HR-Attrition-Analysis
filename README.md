@@ -49,7 +49,7 @@ Findings suggest that attrition rates are higher among employees with lower sala
       ),
       COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber])
   )
-  ```
+  
 - **Data Visualization**: Created interactive reports to display insights effectively.
 
 ## Key Insights

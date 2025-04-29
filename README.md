@@ -32,14 +32,12 @@ How does performance recognition influence employee retention?
 The dataset used in this project mirrors real-world HR records, collected from various organizational sources. It includes employee demographics, job roles, tenure, performance metrics, and exit interview details.
 To ensure data privacy, personally identifiable information (PII) was removed or anonymized. AI-based techniques were applied to regenerate realistic values for removed data points, maintaining authentic attrition patterns for meaningful analysis.
 
+## Data Structure  
+The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
+
 ## Data Analysis Process
 **Data Cleaning & Transformation**
 Conducted using Power Query, the process involved: formatting fields (e.g., income ranges), handling missing values, grouping job levels, standardizing ratings (e.g., environment satisfaction, job level), and applying binning and segmentation for clearer analysis.
-
-**Data Visualization**
-Utilized Power BI to create compelling visuals, including bar charts, column charts, matrix tables, donut charts, and funnel charts to communicate key insights.
-Tenure-based trends and filters
-Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
 
 **Exploratory Data Analysis (EDA)**
 Explored attrition trends in relation to key variables: job role, monthly income, department, job level, environment satisfaction, and marital status.
@@ -58,21 +56,22 @@ Data Analysis Expressions (DAX) was used to create custom measures and KPIs, inc
       ),
       COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber])
   )
-
-## Data Structure  
-The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
   
-  ## Executive Summary
-Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
+**Data Visualization**
+Utilized Power BI to create compelling visuals, including bar charts, column charts, matrix tables, donut charts, and funnel charts to communicate key insights.
+Tenure-based trends and filters
+Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators.
+
 
 ## Data Visualization: **Created interactive reports to display insights effectively**
-
 ![image](https://github.com/user-attachments/assets/4e28a7b2-8937-4b43-984c-39091eb65093)
 ![image](https://github.com/user-attachments/assets/1b7b4246-3006-4074-9af3-3e0988996a6f)
 ![image](https://github.com/user-attachments/assets/7941dafb-8302-45c0-a556-5cb2045b11e5)
 
-## **Insights Deep Dive**
+ ## Executive Summary
+Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
 
+## **Insights Deep Dive**
 ### 1. Monthly Income vs. Attrition
 - Employees earning $1k - $5k have the highest attrition rate (21.76%).
 - Attrition decreases as salary increases, with employees earning $15k - $20k having the lowest attrition rate (3.76%).

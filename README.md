@@ -50,12 +50,10 @@ Data Analysis Expressions (DAX) was used to create custom measures and KPIs, inc
 - Tenure-based trends and filters
 Key Metrics: attrition rate, department-wise turnover, job role-specific attrition, tenure-based trends, and other performance indicators
 
-  ## Data Structure
-  
+## Data Structure  
 The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
   
   ## Executive Summary
-
 Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
 
   Attrition Rate% = 

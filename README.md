@@ -72,14 +72,15 @@ Data Analysis Expressions (DAX) was used to create custom measures and KPIs, inc
 
 Utilized Power BI to create compelling visuals and interactive reports to effectively communicate key insights. The visualizations included bar charts, column charts, matrix tables, donut charts, and funnel charts. Tenure-based trends and filters allowed for deeper insights into various performance metrics.
 
+ ## Executive Summary
+Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
+
 **HR Employee Attrition Analysis Dashboards Showing Insights**
 
 ![image](https://github.com/user-attachments/assets/71c3c752-332f-45b1-a033-8985aa3bde9e)
 ![image](https://github.com/user-attachments/assets/1b7b4246-3006-4074-9af3-3e0988996a6f)
 ![image](https://github.com/user-attachments/assets/7941dafb-8302-45c0-a556-5cb2045b11e5)
 
- ## Executive Summary
-Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
 
 ## **Insights Deep Dive**
 

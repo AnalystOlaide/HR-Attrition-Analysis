@@ -35,44 +35,7 @@ To ensure data privacy, personally identifiable information (PII) was removed. A
 ## Data Structure  
 The data contains the following columns: EmployeeNumber, Attrition, Age, Gender, Department, JobRole, JobLevel, MonthlyIncome, YearsAtCompany, YearsInCurrentRole, JobSatisfaction, WorkLifeBalance, OverTime, BusinessTravel, DistanceFromHome, EnvironmentSatisfaction, PerformanceRating, PercentSalaryHike, TrainingTimesLastYear, Education, EducationField, MaritalStatus.
 
-## Tool Used  
-**Power BI**
-
-## Power BI Skills Applied  
-- **Power Query**: For data cleaning and transformation  
-- **DAX**: Used to create calculation measures and perform advanced analytics  
-- **Charts & Visuals**: Built interactive dashboards using bar, column, donut, matrix, and funnel charts
-
-## Data Analysis Process
-
-**Data Cleaning & Transformation**
-Conducted using Power Query, the process involved: formatting fields (e.g., income ranges), handling missing values, grouping job levels, standardizing ratings (e.g., environment satisfaction, job level), and applying binning and segmentation for clearer analysis.
-
-**Exploratory Data Analysis (EDA)**
-
-Explored attrition trends in relation to key variables: job role, monthly income, department, job level, environment satisfaction, and marital status.
-Tool Used: Power BI
-
- **DAX Calculations** 
- 
-Data Analysis Expressions (DAX) was used to create custom measures and KPIs, including:
-- Attrition rate calculations
-- Segmentation by job level and income bracket
-
-**Attrition Rate%** = 
-  DIVIDE(
-      CALCULATE(
-          COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber]),
-          'WA_Fn-UseC_-HR-Employee-Attrition'[Attrition] = "Yes"
-      ),
-      COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber])
-  )
-  
-**Data Visualization**
-
-Utilized Power BI to create compelling visuals and interactive reports to effectively communicate key insights. The visualizations included bar charts, column charts, matrix tables, donut charts, and funnel charts. Tenure-based trends and filters allowed for deeper insights into various performance metrics.
-
- ## Executive Summary
+## Executive Summary
 Findings suggest that attrition rates are higher among employees with lower salaries, entry-level positions, and those in sales and HR roles. Employees experiencing long commutes, frequent business travel, poor work-life balance, and limited training opportunities are more likely to leave. Additionally, high attrition is linked to low job satisfaction, inadequate recognition, and insufficient career growth opportunities. Employees with higher education and job satisfaction tend to stay longer, while those with poor work environments or lacking career advancement are more likely to exit.
 
 **HR Employee Attrition Analysis Dashboards Showing Insights**
@@ -224,6 +187,43 @@ Findings suggest that attrition rates are higher among employees with lower sala
 
 ## Conclusion
 Employee attrition is influenced by multiple factors, including salary, job satisfaction, work-life balance, career growth, and work conditions. This Power BI analysis has identified key drivers of attrition and provided data-driven recommendations. Implementing these strategies will help organizations build a more stable and satisfied workforce.
+
+## Tool Used  
+**Power BI**
+
+## Power BI Skills Applied  
+- **Power Query**: For data cleaning and transformation  
+- **DAX**: Used to create calculation measures and perform advanced analytics  
+- **Charts & Visuals**: Built interactive dashboards using bar, column, donut, matrix, and funnel charts
+
+## Data Analysis Process
+
+**Data Cleaning & Transformation**
+Conducted using Power Query, the process involved: formatting fields (e.g., income ranges), handling missing values, grouping job levels, standardizing ratings (e.g., environment satisfaction, job level), and applying binning and segmentation for clearer analysis.
+
+**Exploratory Data Analysis (EDA)**
+
+Explored attrition trends in relation to key variables: job role, monthly income, department, job level, environment satisfaction, and marital status.
+Tool Used: Power BI
+
+ **DAX Calculations** 
+ 
+Data Analysis Expressions (DAX) was used to create custom measures and KPIs, including:
+- Attrition rate calculations
+- Segmentation by job level and income bracket
+
+**Attrition Rate%** = 
+  DIVIDE(
+      CALCULATE(
+          COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber]),
+          'WA_Fn-UseC_-HR-Employee-Attrition'[Attrition] = "Yes"
+      ),
+      COUNT('WA_Fn-UseC_-HR-Employee-Attrition'[EmployeeNumber])
+  )
+  
+**Data Visualization**
+
+Utilized Power BI to create compelling visuals and interactive reports to effectively communicate key insights. The visualizations included bar charts, column charts, matrix tables, donut charts, and funnel charts. Tenure-based trends and filters allowed for deeper insights into various performance metrics.
 
 ## How to Use This Project
 1. **Download the Power BI file** from this repository.
